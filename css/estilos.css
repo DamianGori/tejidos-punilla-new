@@ -1,0 +1,156 @@
+.web {
+  margin: 0vw;
+  font-family: 'Roboto', sans-serif; }
+
+.header {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 5rem;
+  background-color: #e2e2e2; }
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.header-botones {
+  display: flex;
+  width: 6rem;
+  height: 2rem;
+  margin-left: 1vw;
+  margin-right: 1vw; }
+
+.header-botones:hover {
+  background-color: white;
+  transition: 1s; }
+
+.back {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 10rem;
+  background-image: url(../imagenes/main-background.jpg);
+  background-size: cover;
+  padding-left: 3vw;
+  padding-top: 6vw;
+  font-size: 3vw; }
+
+.back-gorros {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 10rem;
+  background-image: url(../imagenes/Gorros-background.jpg);
+  background-size: cover;
+  padding-left: 3vw;
+  padding-top: 6vw;
+  font-size: 3vw; }
+
+.back-chalecos {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 10rem;
+  background-image: url(../imagenes/cuellos-background.jpg);
+  background-size: cover;
+  padding-left: 3vw;
+  padding-top: 6vw;
+  font-size: 3vw; }
+
+.back-usados {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 10rem;
+  background-image: url(../imagenes/usados-background.jpg);
+  background-size: cover;
+  padding-left: 3vw;
+  padding-top: 6vw;
+  font-size: 3vw; }
+
+.back-contacto {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 10rem;
+  background-image: url(../imagenes/contacto-background.jpg);
+  background-size: cover;
+  padding-left: 3vw;
+  padding-top: 6vw;
+  font-size: 3vw; }
+
+.seccion {
+  width: 100vw;
+  height: 60vw;
+  padding: 2rem; }
+
+.formulario {
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: 20rem;
+  grid-template-areas: "area1 area2";
+  padding: 5rem; }
+
+.flex {
+  display: flex;
+  padding: 2rem; }
+
+#apellido {
+  display: flex; }
+
+#correo {
+  display: flex; }
+
+#nombre {
+  display: flex; }
+
+#apellido {
+  display: flex; }
+
+#correo {
+  display: flex; }
+
+.caja-texto {
+  display: flex;
+  padding: 2rem; }
+
+.cuerpo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem; }
+
+.cuerpo-texto {
+  display: grid;
+  grid-template-columns: 85vw;
+  grid-template-rows: 30rem;
+  padding: 5rem;
+  text-align: center; }
+
+.img {
+  width: 23vw;
+  height: 23vw;
+  margin: 1rem; }
+
+.img:hover {
+  transform: scale();
+  width: 28vw;
+  height: 28vw;
+  transition: 1s; }
+
+.footer {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 3rem;
+  padding: 1vw;
+  background-color: #e2e2e2; }
+
+@media screen and (max-width: 850px) {
+  .header {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 5.2rem;
+    background-color: #e2e2e2; } }
+
+.titulo {
+  font-size: 3rem;
+  font-style: italic; }
